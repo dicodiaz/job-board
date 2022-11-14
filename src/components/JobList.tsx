@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react';
 import Job, { JobType } from './Job';
 
+// TODO: Configure husky for pnpm
+
 const mockData: JobType[] = [
   {
     slug: 'strategy-business-development-manager-sales-focus-in-the-field-of-ai-satellite-data-liveeo-gmbh-berlin-germany-429690',
